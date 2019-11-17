@@ -18,7 +18,7 @@ namespace DatingApp.API.Controllers
 
         public WeatherForecastController(DataContext context, ILogger<WeatherForecastController> logger)
         {
-            this._context = context;
+            _context = context;
             _logger = logger;
         }
 
