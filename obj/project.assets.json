@@ -4982,11 +4982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\aspnet_core_web_api_angular\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\aspnet_core_web_api_angular\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\El Rey Tabuzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\DatingApp\\DatingApp.API\\obj\\",
+      "outputPath": "C:\\Users\\El Rey Tabuzo\\Desktop\\Project\\aspnet_core_web_api_angular\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\El Rey Tabuzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
