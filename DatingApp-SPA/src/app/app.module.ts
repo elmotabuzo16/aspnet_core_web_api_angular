@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
 import { NavComponent } from './nav/nav.component';
+import { AuthService } from './_service/auth.service';
 
 @NgModule({
    declarations: [
@@ -20,7 +21,9 @@ import { NavComponent } from './nav/nav.component';
       // this is from nav.component.ts using ngForm
       FormsModule
    ],
-   providers: [],
+   providers: [
+      AuthService
+   ],
    bootstrap: [
       AppComponent
    ]
