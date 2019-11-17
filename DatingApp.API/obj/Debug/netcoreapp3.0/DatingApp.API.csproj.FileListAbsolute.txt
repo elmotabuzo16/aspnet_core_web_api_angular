@@ -148,3 +148,7 @@ C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API
 C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.csproj.CopyComplete
 C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.dll
 C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.pdb
+C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\El Rey Tabuzo\Desktop\Project\aspnet_core_web_api_angular\DatingApp.API\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
