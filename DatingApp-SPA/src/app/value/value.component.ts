@@ -24,7 +24,7 @@ export class ValueComponent implements OnInit {
   // observable - stream of data let's coming back from server
   // subscribe - first parameter takes callback, second paramter event of an error, third received data
   getValues() {
-    this.http.get('http://localhost:5000/WeatherForecast').subscribe(response => {
+    this.http.get('http://localhost:5000/api/values').subscribe(response => {
       this.values = response;
     }, error => {
       console.log(error);
