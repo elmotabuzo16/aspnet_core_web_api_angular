@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
@@ -14,7 +15,10 @@ import { NavComponent } from './nav/nav.component';
    ],
    imports: [
       BrowserModule,
-      HttpClientModule
+      // this is from value.component.ts using getValues()
+      HttpClientModule,
+      // this is from nav.component.ts using ngForm
+      FormsModule
    ],
    providers: [],
    bootstrap: [
