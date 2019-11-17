@@ -6,17 +6,19 @@ using DatingApp.API.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DatingApp.API.Controllers
 {
+    [Authorize]
     [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    [Route("api/[controller]")]
+    public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<ValuesController> _logger;
 
-        public WeatherForecastController(DataContext context, ILogger<WeatherForecastController> logger)
+        public ValuesController(DataContext context, ILogger<ValuesController> logger)
         {
             _context = context;
             _logger = logger;
