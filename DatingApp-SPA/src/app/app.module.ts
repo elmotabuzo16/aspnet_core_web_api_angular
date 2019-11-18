@@ -7,18 +7,20 @@ import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
 import { NavComponent } from './nav/nav.component';
 import { AuthService } from './_service/auth.service';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       ValueComponent,
-      NavComponent
+      NavComponent,
+      RegisterComponent,
+      HomeComponent
    ],
    imports: [
       BrowserModule,
-      // this is from value.component.ts using getValues()
       HttpClientModule,
-      // this is from nav.component.ts using ngForm
       FormsModule
    ],
    providers: [
